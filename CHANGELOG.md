@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 
+### Fixed
+
+- LTX-2.5 generation (Distilled, Dev, Q8 DiT) failing immediately with `SyntaxError: unterminated string literal` from the embedded Python runner.
+
 ## [2.3.84] - 2026-09-08
 
 ### Changed
